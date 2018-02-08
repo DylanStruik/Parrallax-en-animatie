@@ -1,0 +1,70 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.addColor {
+    color: red !important;
+}
+
+.container {
+    &__contentVak {
+        h3 {
+            padding: 2em 0;
+        }
+        &__img_1 {
+            background-image: url("../img/deel1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 500px;
+            background-position: center;
+            background-attachment: fixed;
+            color: lightgray;
+            p {
+                padding: calc(250px - 9vw) 25%;
+                font-size: 7vw;
+                position: absolute;
+                white-space:nowrap;
+                transition: color 1s ease;
+            }
+        }
+        &__img_2 {
+            background-image: url("../img/deel2.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            width: 100%;
+            height: 500px;
+            color: lightgray;
+            p {
+                padding: calc(250px - 9vw) 0;
+                font-size: 7vw;
+                position: absolute;
+                white-space:nowrap;
+                transition: color 1s ease;
+            }
+        }
+        &__img_3 {
+            background-image: url("../img/deel3.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            width: 100%;
+            height: 500px;
+            color: lightgray;
+            p {
+                padding: calc(250px - 9vw) 0;
+                width: 100%;
+                text-align: center;
+                font-size: 7vw;
+                position: absolute;
+                white-space:nowrap;
+                transition: color 1s ease;
+            }
+        }
+    }
+}
